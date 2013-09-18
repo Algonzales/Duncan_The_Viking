@@ -1,4 +1,4 @@
-#Text based game about vikings (Duncan is the Protag)
+#Text based game about vikings (Duncan is the Protagonist)
 def main():
     print('Duncan was a strong farmer who joined a raiding crew to make ends meet'\
           ' for his family, but this is a story that has already begun. Children think that stories begin when you start reading, but that is never true.'\
@@ -32,7 +32,7 @@ def Duncan_Ch1_2():
         
 def Duncan_Ch1_2_1():
     print('Duncan walks up to Fjord, a giant man, and challenges him to an arm wrestling duel. "Ha" Fjord laughed, "I could beat you with '\
-          'my weak arm". Does Duncan 1. go through with the challenge whole heartedly or 2. go back to lookout duty?')
+          'my weak arm". Does Duncan 1. go through with the challenge whole hardheartedly or 2. go back to lookout duty?')
     choice = input('1 or 2?: ')
     if choice == '1':
         Duncan_Ch1_2_1_1()
@@ -53,13 +53,13 @@ def Duncan_Ch1_2_2_1():
           ' back at John as he swiftly lowered a landing boat into the sea."')
 
 def Duncan_Ch1_2_2_2():
-    print('Duncan continues to partol the boat watching for the signal, finally a faint blaze in the distance alerts him. With more observation it is clearly the signal.'\
-          'Duncan rallies the men yelling "Men to your stations, for the time has come to set fire to the land for ths signal has been drawn!"')
+    print('Duncan continues to patrol the boat watching for the signal, finally a faint blaze in the distance alerts him. With more observation it is clearly the signal.'\
+          'Duncan rallies the men yelling "Men to your stations, for the time has come to set fire to the land for the signal has been drawn!"')
 
 def Duncan_Ch1_2_1_1():
     print('"I\'d like to see you try Fjord!" Duncan replied happily. Duncan sat at the giant table across from the monster of a man'\
           ', slamming his right elbow up on the table. They slammed fists together and tried with all their might to throw each other into'\
-          ' the table. Duncan, to everyones suprise, defeated Fjord easily. "I\'m much stronger than you take me for Fjord! Do not look down"'\
+          ' the table. Duncan, to everyone's surprise, defeated Fjord easily. "I\'m much stronger than you take me for Fjord! Do not look down"'\
           ' upon smaller people, for that is the monsters downfall!" Boasted Duncan. Duncan looks out the window seeing the signal, he shouts "MEN, ready the'\
           ' raiding party for the signal has been drawn!"')
     Duncan_Ch2_2()
@@ -69,7 +69,7 @@ def Duncan_Ch2_1():
     main()
 
 def Duncan_Ch2_2():
-    print('Duncan ran alongside the crew with guilt in his heart, was greed this important to him? 1. Should he keep going with the crew or go off unto the wilds and attone for'\
+    print('Duncan ran alongside the crew with guilt in his heart, was greed this important to him? 1. Should he keep going with the crew or go off unto the wilds and atone for'\
           'his past? or 2. keep with the crew and find the outcome of this raid?')
     main()
 main()
