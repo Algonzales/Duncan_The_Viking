@@ -5,7 +5,8 @@ def main():
           ' Duncan has been aboard this viking vessel for months, he has risen through the ranks fast-like. This will not have been his first raid. There is speak of a village close by that has'\
           'many riches. The crew docks the vessel in the dead of night readying themselves to raid the village.')
     print('Does Duncan 1. go with the small raiding party at night to break down the'\
-          ' town gates or 2. wait for the signal to rush in with the larger party later?')
+          ' town gates or 2. wait for the signal to rush in with the larger party later?'\
+          '')
     choice = input('1 or 2?: ')
     if choice == '1':
         Duncan_Ch1_1()
@@ -14,7 +15,8 @@ def main():
 
 def Duncan_Ch1_1():
     print('Duncan sneaks through the forest nearby with the small party, he spots a small crevice does he 1. Search the crevice '\
-          'or does he 2. run back to catch up with the party')
+          'or does he 2. run back to catch up with the party'\
+          '')
     choice = input('1 or 2?: ')
     if choice == '1':
         Duncan_End_1()
@@ -24,18 +26,21 @@ def Duncan_Ch1_1():
 def Duncan_End_1():
     print('Duncan sneaks off to look at the crevice, as he is walking a small slender outline and tiny light down the hill catches his eye. As he is walking towards'\
           'the light at the bottom off the hill he looses his footing on some mud. Hitting the bottom of the hill a loud CRACK goes through air as the contact with the'\
-          'ground shatters his neck and breaks open his skull. (Well atleast he died rather quick, please play again!)')
+          'ground shatters his neck and breaks open his skull. (Well atleast he died rather quick, please play again!)'\
+          '')
     main()
 
 def Duncan_ch1_1_2():
     print('Duncan caught up with his comrades, they would be at the village gates in minutes. "About damn time you caught up" Bradd whispered to Duncan, '\
           '"Whatever I can atleast I can get to my shift on time". "Big words from a small man Duncan!" replied Bradd happily. "We are approaching the gate, '\
-          'ready the torches we need to get it burning fast!"')
-    Duncan_ch2_1
+          'ready the torches we need to get it burning fast!"'\
+          '')
+    Duncan_ch2_1()
         
 def Duncan_Ch1_2():
     print('Duncan waits for the signal from the raiding party to assemble the other men, does he 1. Arm wrestle the other men or '\
-          '2. Stay on lookout')
+          '2. Stay on lookout'\
+          '')
     choice = input('1 or 2?: ')
     if choice == '1':
         Duncan_Ch1_2_1()
@@ -44,7 +49,8 @@ def Duncan_Ch1_2():
         
 def Duncan_Ch1_2_1():
     print('Duncan walks up to Fjord, a giant man, and challenges him to an arm wrestling duel. "Ha" Fjord laughed, "I could beat you with '\
-          'my weak arm". Does Duncan 1. go through with the challenge whole-heartedly or 2. go back to lookout duty?')
+          'my weak arm". Does Duncan 1. go through with the challenge whole-heartedly or 2. go back to lookout duty?'\
+          '')
     choice = input('1 or 2?: ')
     if choice == '1':
         Duncan_Ch1_2_1_1()
@@ -53,7 +59,8 @@ def Duncan_Ch1_2_1():
         
 def Duncan_Ch1_2_2():
     print('Duncan walks the edge of the boat for hours it seems, he sees a shadow from the edge of forest. It is a small slender outline holding a tiny lantern.'\
-          'Does Duncan 1. go after the the thing he saw or 2. keep watch for the signal?')
+          'Does Duncan 1. go after the the thing he saw or 2. keep watch for the signal?'\
+          '')
     choice = input('1 or 2?: ')
     if choice == '1':
         Duncan_Ch1_2_2_1()
@@ -62,19 +69,22 @@ def Duncan_Ch1_2_2():
 
 def Duncan_Ch1_2_2_1():
     print('Duncan is overcome with curiosity, "John!" He yells, "Yes" John faintly replied. "Take over my lookout shift I have to check something out" Duncan yelled'\
-          ' back at John as he swiftly lowers a landing boat into the sea."')
+          ' back at John as he swiftly lowers a landing boat into the sea."'\
+          '')
     Duncan_Ch2_3()
 
 def Duncan_Ch1_2_2_2():
     print('Duncan continues to patrol the boat watching for the signal, finally a faint blaze in the distance alerts him. With more observation it is clearly the signal.'\
           'Duncan rallies the men yelling "Men to your stations, for the time has come to set fire to the land for the signal has been drawn!"')
+    Duncan_Ch2_2()
 
 def Duncan_Ch1_2_1_1():
     print('"I\'d like to see you try Fjord!" Duncan replies happily. Duncan sat at the giant table across from the monster of a man'\
           ', slamming his right elbow up on the table. They slam fists together and tried with all their might to throw each other into'\
           ' the table. Duncan, to everyone\'s surprise, defeated Fjord easily. "I\'m much stronger than you take me for Fjord! Do not look down"'
           ' upon smaller people, for that is the monsters downfall!" Boasts Duncan. Duncan looks out the window seeing the signal, he shouts "MEN, ready the'\
-          ' raiding party for the signal has been drawn!"')
+          ' raiding party for the signal has been drawn!"'\
+          '')
     Duncan_Ch2_2()
           
 def Duncan_Ch2_1():
@@ -83,14 +93,16 @@ def Duncan_Ch2_1():
 
 def Duncan_Ch2_2():
     print('Duncan ran alongside the crew with guilt in his heart, was greed this important to him? 1. Should he keep going with the crew or go off unto the wilds and atone for'\
-          'his past? or 2. keep with the crew and find the outcome of this raid?')
+          'his past? or 2. keep with the crew and find the outcome of this raid?'\
+          '')
     main()
 def Duncan_Ch2_3():
     print('Duncan paddled wondering what he had seen in the forest, he hoped that it wouldn\'t alert the village. He paddled hastily trying to catch whatever he had seen'\
           ' for now he is paranoid at the fact his comrades might be killed. Hitting land, he took off at a dead sprint towards the silhouette in the dark. Following'\
           ' the lantern light as best he could. Suddenly the lantern disappears, \'What? where did it go?\' he thought stopping. Suddenly he felt cold metal against'\
           'his throat, "Viking, take your hand from your blade\'s hilt or you might find yourselve in a pool of your own blood." a cold voice whispered in his ear.'\
-          ' 1. Does he arm himself and try to fight the shadow? or 2. try to reason with the voice?')
+          ' 1. Does he arm himself and try to fight the shadow? or 2. try to reason with the voice?'\
+          '')
     choice = input('1 or 2?: ')
     if choice == '1':
         Duncan_End_2()
@@ -99,10 +111,12 @@ def Duncan_Ch2_3():
 def Duncan_End_2():
     print('Duncan immediatly tries elbowing the enemy but finds that they are gone. Warm liquid is pooling down his chest, as he looks down all he can see is red as'\
           'blood poors from his neck. He frantically tries to cover up the wound, his eyes goe black as he falls face first into his own blood. He bleeds out in'\
-          ' a matter of seconds. (I guess you should take threats seriously then)')
+          ' a matter of seconds. (I guess you should take threats seriously then)'\
+          '')
     main()
 def Duncan_Ch2_3_2():
-    print('"Aye." Duncan says as he slowly takes his hand from his hilt.\(still working on this part)')
+    print('"Aye." Duncan says as he slowly takes his hand from his hilt.\(still working on this part)'\
+          '')
     main()
 
 main()
