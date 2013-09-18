@@ -101,7 +101,7 @@ def Duncan_End_2():
           'blood poors from his neck. He frantically tries to cover up the wound, his eyes goe black as he falls face first into his own blood. He bleeds out in'\
           ' a matter of seconds. (I guess you should take threats seriously then)')
     main()
-def Duncan_ch2_3_2():
+def Duncan_Ch2_3_2():
     print('"Aye." Duncan says as he slowly takes his hand from his hilt.\(still working on this part)')
     main()
 
