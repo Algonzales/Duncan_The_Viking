@@ -1,0 +1,76 @@
+#Text based game about vikings (Duncan is the Protag)
+def main():
+    print('Duncan was a strong farmer who joined a raiding crew to make ends meet'\
+          ' for his family, but this is a story that has already begun. Children think that stories begin when you start reading, but that is never true.'\
+          'Duncan has been aboard this viking vessel for months, he has risen through the ranks fast-like. This will not have been his first raid. There is speak of a village close by that has'\
+          'many riches. The crew docks the vessel in the dead of night readying themselves to raid the village.')
+    print('Does Duncan 1. go with the small raiding party at night to break down the'\
+          ' town gates or 2. wait for the signal to rush in with the larger party later?')
+    choice = input('1 or 2?: ')
+    if choice == '1':
+        Duncan_Ch1_1()
+    else:
+        Duncan_Ch1_2()
+
+def Duncan_Ch1_1():
+    print('Duncan sneaks through the forest nearby with the small party, he spots a small crevice does he 1. Search the crevice '\
+          'or does he 2. run back to catch up with the party')
+    choice = input('1 or 2?: ')
+    if choice == '1':
+        Duncan_Ch1_1_1()
+    else:
+        Duncan_Ch2_1()
+        
+def Duncan_Ch1_2():
+    print('Duncan waits for the signal from the raiding party to assemble the other men, does he 1. Arm wrestle the other men or '\
+          '2. Stay on lookout')
+    choice = input('1 or 2?: ')
+    if choice == '1':
+        Duncan_Ch1_2_1()
+    else:
+        Duncan_Ch1_2_2()
+        
+def Duncan_Ch1_2_1():
+    print('Duncan walks up to Fjord, a giant man, and challenges him to an arm wrestling duel. "Ha" Fjord laughed, "I could beat you with '\
+          'my weak arm". Does Duncan 1. go through with the challenge whole heartedly or 2. go back to lookout duty?')
+    choice = input('1 or 2?: ')
+    if choice == '1':
+        Duncan_Ch1_2_1_1()
+    else:
+        Duncan_Ch1_2()
+        
+def Duncan_Ch1_2_2():
+    print('Duncan walks the edge of the boat for hours it seems, he saw a shadow from the edge of forest. It was a small slender outline holding a tiny lantern.'\
+          'Does Duncan 1. go after the the thing he saw or 2. keep watch for the signal?')
+    choice = input('1 or 2?: ')
+    if choice == '1':
+        Duncan_Ch1_2_2_1()
+    else:
+        Duncan_Ch1_2_2_2()
+
+def Duncan_Ch1_2_2_1():
+    print('Duncan was overcome with curiosity, "John!" He yelled, "Yes" John faintly replied. "Take over my lookout shift I have to check something out" Duncan yelled'\
+          ' back at John as he swiftly lowered a landing boat into the sea."')
+
+def Duncan_Ch1_2_2_2():
+    print('Duncan continues to partol the boat watching for the signal, finally a faint blaze in the distance alerts him. With more observation it is clearly the signal.'\
+          'Duncan rallies the men yelling "Men to your stations, for the time has come to set fire to the land for ths signal has been drawn!"')
+
+def Duncan_Ch1_2_1_1():
+    print('"I\'d like to see you try Fjord!" Duncan replied happily. Duncan sat at the giant table across from the monster of a man'\
+          ', slamming his right elbow up on the table. They slammed fists together and tried with all their might to throw each other into'\
+          ' the table. Duncan, to everyones suprise, defeated Fjord easily. "I\'m much stronger than you take me for Fjord! Do not look down"'\
+          ' upon smaller people, for that is the monsters downfall!" Boasted Duncan. Duncan looks out the window seeing the signal, he shouts "MEN, ready the'\
+          ' raiding party for the signal has been drawn!"')
+    Duncan_Ch2_2()
+          
+def Duncan_Ch2_1():
+    print('Duncan and the crew set fire to the giant gate to the village, which signaled the raiding crew to come join them in pillaging the village.')
+    main()
+
+def Duncan_Ch2_2():
+    print('Duncan ran alongside the crew with guilt in his heart, was greed this important to him? 1. Should he keep going with the crew or go off unto the wilds and attone for'\
+          'his past? or 2. keep with the crew and find the outcome of this raid?')
+    main()
+main()
+
