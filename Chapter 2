@@ -10,8 +10,10 @@ def main():
     choice = input('1 or 2?: ')
     if choice == '1':
         Duncan_Ch1_1()
-    else:
+    elif choice == '2':
         Duncan_Ch1_2()
+    else:
+        main()
 
 def Duncan_Ch1_1():
     print('Duncan sneaks through the forest nearby with the small party, he spots a small crevice does he 1. Search the crevice '\
@@ -20,8 +22,10 @@ def Duncan_Ch1_1():
     choice = input('1 or 2?: ')
     if choice == '1':
         Duncan_End_1()
-    else:
+    elif choice == '2':
         Duncan_Ch1_1_2()
+    else:
+        Duncan_Ch1_1()
 
 def Duncan_End_1():
     print('Duncan sneaks off to look at the crevice, as he is walking a small slender outline and tiny light down the hill catches his eye. As he is walking towards'\
@@ -44,8 +48,10 @@ def Duncan_Ch1_2():
     choice = input('1 or 2?: ')
     if choice == '1':
         Duncan_Ch1_2_1()
-    else:
+    elif choice == '2':
         Duncan_Ch1_2_2()
+    else:
+        Duncan_Ch1_2()
         
 def Duncan_Ch1_2_1():
     print('Duncan walks up to Fjord, a giant man, and challenges him to an arm wrestling duel. "Ha" Fjord laughed, "I could beat you with '\
@@ -54,8 +60,10 @@ def Duncan_Ch1_2_1():
     choice = input('1 or 2?: ')
     if choice == '1':
         Duncan_Ch1_2_1_1()
-    else:
+    elif choice == '2':
         Duncan_Ch1_2()
+    else:
+        Duncan_Ch1_2_1()
         
 def Duncan_Ch1_2_2():
     print('Duncan walks the edge of the boat for hours it seems, he sees a shadow from the edge of forest. It is a small slender outline holding a tiny lantern.'\
@@ -64,9 +72,10 @@ def Duncan_Ch1_2_2():
     choice = input('1 or 2?: ')
     if choice == '1':
         Duncan_Ch1_2_2_1()
-    else:
+    elif choice == '2':
         Duncan_Ch1_2_2_2()
-
+    else:
+        Duncan_Ch1_2_2()
 def Duncan_Ch1_2_2_1():
     print('Duncan is overcome with curiosity, "John!" He yells, "Yes" John faintly replied. "Take over my lookout shift I have to check something out" Duncan yelled'\
           ' back at John as he swiftly lowers a landing boat into the sea."')
@@ -106,8 +115,10 @@ def Duncan_Ch2_3():
     choice = input('1 or 2?: ')
     if choice == '1':
         Duncan_End_2()
-    else:
+    elif choice == '2':
         Duncan_Ch2_3_2()
+    else:
+        Duncan_Ch2_3
 def Duncan_End_2():
     print('Duncan immediatly tries elbowing the enemy but finds that they are gone. Warm liquid is pooling down his chest, as he looks down all he can see is red as'\
           'blood poors from his neck. He frantically tries to cover up the wound, his eyes goe black as he falls face first into his own blood. He bleeds out in'\
@@ -120,3 +131,4 @@ def Duncan_Ch2_3_2():
     main()
 
 main()
+
