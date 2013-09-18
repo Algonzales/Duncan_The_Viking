@@ -30,12 +30,12 @@ def Duncan_End_1():
           
     main()
 
-def Duncan_ch1_1_2():
+def Duncan_Ch1_1_2():
     print('Duncan caught up with his comrades, they would be at the village gates in minutes. "About damn time you caught up" Bradd whispered to Duncan, '\
           '"Whatever I can atleast I can get to my shift on time". "Big words from a small man Duncan!" replied Bradd happily. "We are approaching the gate, '\
           'ready the torches we need to get it burning fast!"')
           
-    Duncan_ch2_1()
+    Duncan_Ch2_1()
         
 def Duncan_Ch1_2():
     print('Duncan waits for the signal from the raiding party to assemble the other men, does he 1. Arm wrestle the other men or '\
